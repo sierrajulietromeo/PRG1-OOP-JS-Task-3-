@@ -6,11 +6,9 @@ function validInteger (value) { // value can be a string or a number (integer)
 }  
 
 
-
 function validatePriority(priority) { // value can be a string or a number (integer)
   
 }
-
 
 
 function todaysDate () {
@@ -18,12 +16,10 @@ function todaysDate () {
 }
 
 
-
 class Task  {
 
   // (title, priority)
 }
-
 
 
 class ToDo {
