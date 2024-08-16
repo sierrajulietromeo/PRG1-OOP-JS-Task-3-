@@ -92,7 +92,7 @@ taskList.task ( 'WrongTitle' ) -> // throw error <Task 'WrongTitle' Not Found> a
 * It is worth remembering that, when instantiated, a ToDo object is simply a management container for any number of added Tasks.
 * Defining and declaring PRIVATE variables - typically the idea of 'scope' is used to keep 'things safe' and prevent unexpected or 'unauthorised' values being accessible, used 'as is' or accidentally overridden. However, within the context of OO (object oriented) design there is the concept of 'accessors' - essentially these abstract (hide) implementation details in three (general ways): public (i.e., exposed to the wider codebase), protected (i.e., exposed to 'trusted or extended' aspects of the codebase) and private (only available from 'within' the local code base). 
 
-* Evidence of testing is expected. You should test your solution by making sufficient calls to your function(s)/Classes so that you are positive that it works as expected. These should be left at the bottom of ```oop.js``` **commented out**. 
+* You should test your solution yourself by making your own sufficient calls to your function(s) so that you are positive that it works as expected, regardless of the included tests.
 
 * Your final version should demonstrate evidence of being refactored; please note, refactoring is not bug-fixing - essentially it is reducing complexity and simplifying your codebase such that it is as efficient, readable, structured and as manageable as possible.
 
@@ -111,7 +111,7 @@ validatePriority ( 1 ) // returns 1
 validatePriority ( 'A' ) // returns 1
 validatePriority ( '7' ) // returns 7
 validatePriority ( '10' ) // returns 1
-todaysDate() // returns the current date and time, whatever it is. E.g. 28/3/2023 9:30:0 
+todaysDate() // returns the current date and time, whatever it is. E.g. 28/03/2023 09:30:04 
 
 
 const taskList = new ToDo() // creates an instance of a ToDo() object name taskList
@@ -129,4 +129,4 @@ Prior to actually submitting your final attempt you should ensure you have revie
   
   1. Refactored solution.
   2. Does your solution follow accepted coding conventions?
-  3. Your 'test' code, commented out at the bottom of ```oop.js```
+  
