@@ -103,8 +103,8 @@ validInteger ( '10' ) // returns True
 validInteger ( 10 ) // returns True 
 validInteger ( '-10' ) // returns False
 validInteger ( -10 ) // returns False
-validInteger ( 0.0 ) // returns False
-validInteger ( 10.0 ) // returns False
+validInteger ( 0.0 ) // returns True (JS Coerces to Int, removing the .0)
+validInteger ( 10.0 ) // returns True (JS Coerces to Int, removing the .0)
 validInteger ( -10.0 ) // returns False
 validatePriority ( 0 ) // returns 1
 validatePriority ( 1 ) // returns 1
