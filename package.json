@@ -1,0 +1,15 @@
+{
+    "name": "prg1-oop-js",
+    "version": "1.0.0",
+    "description": "Create a minimum viable product (MVP) ToDo App",
+    "main": "oop.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "jest": "^29.7.0"
+    }
+}
