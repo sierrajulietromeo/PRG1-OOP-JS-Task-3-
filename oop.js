@@ -1,6 +1,6 @@
 const PRIORITY = { LOW: 1, MEDIUM: 3, HIGH: 5, URGENT: 7 };
 
-function validInteger(value) {
+function validPositiveInteger(value) {
   // value can be a string or a number (integer)
 }
 
@@ -12,20 +12,20 @@ function todaysDate() {
 
 }
 
-class Task {
+class TaskList {
   // (title, priority)
 }
 
-class ToDo {
+class Todo {
   
 }
 
 // Leave this code here for the automated tests
 module.exports = {
   PRIORITY,
-  validInteger,
+  validPositiveInteger,
   validatePriority,
   todaysDate,
-  ToDo,
-  Task,
+  Todo,
+  TaskList,
 };
