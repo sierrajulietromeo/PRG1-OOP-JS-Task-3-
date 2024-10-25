@@ -13,7 +13,7 @@ function todaysDate() {
 }
 
 class TaskList {
-  // (title, priority)
+  
 }
 
 class Todo {
