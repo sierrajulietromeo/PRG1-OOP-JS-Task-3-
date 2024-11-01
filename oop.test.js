@@ -183,7 +183,7 @@ describe("OOP function tests", () => {
       expect(taskList.add(todo2)).toBe(2);
       expect(() => {
         taskList.task("ACME T9");
-      }).toThrow("TaskList 'ACME T9' Not Found");
+      }).toThrow("Task 'ACME T9' Not Found");
 
       taskList.task("ACME T2").priority = PRIORITY["URGENT"];
       expect(taskList.task("ACME T2").priority).toBe(PRIORITY["URGENT"]);
